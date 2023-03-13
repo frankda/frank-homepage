@@ -52,6 +52,7 @@ const basePalette = {
   red750: '#660000',
 
   black: '#000000',
+  blue: '#2be4ea',
   white: '#ffffff',
   green: '#00c200',
   red: '#ff4d4d',

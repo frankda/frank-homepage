@@ -2,13 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-import styled, { useTheme } from 'styled-components'
+import Button from 'components/DesignSystem/Button/Button'
 
-const Button = styled.button`
-  background: ${(p) => p.theme.color.red};
-  height: 50px;
-  width: 100px;
-`
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +18,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <Button>Hello</Button>
+          <Button></Button>
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.tsx</code>
